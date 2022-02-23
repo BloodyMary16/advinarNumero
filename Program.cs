@@ -11,7 +11,7 @@ public class adivinarNumero
         Console.WriteLine("Introduzca un número entre 0 y 16:");
         int num = Int32.Parse(Console.ReadLine());
         int intentos = 3;
-       
+              
         while ((num != numeroParaAdivinar) && (intentos <= 4))
         {
             
